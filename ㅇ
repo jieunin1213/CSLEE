@@ -1,0 +1,999 @@
+> val2
+[1] 1 2 3 4 5
+> val+val2
+[1]  2  4  8 11 13
+> #문자
+> 
+> str1<-"a"
+> str1
+[1] "a"
+> str2<-"text"
+> str2
+[1] "text"
+> str3<-"Hello world!"
+> str3
+[1] "Hello world!"
+> str4<-c("a","b","c")
+> str4
+[1] "a" "b" "c"
+> 
+> 
+> 
+> c("a")
+[1] "a"
+> c('a','b','c')
+[1] "a" "b" "c"
+> 
+> 
+> str1 #숫자? 문자?? ===> 문자
+[1] "a"
+> var+2
+Error in var + 2 : 이항연산자에 수치가 아닌 인수입니다
+> val+2
+[1]  3  4  7  9 10
+> str1+2p
+에러: 예상하지 못한 기호(symbol)입니다. in "str1+2p"
+> str1+2
+Error in str1 + 2 : 이항연산자에 수치가 아닌 인수입니다
+> str1+str2
+Error in str1 + str2 : 이항연산자에 수치가 아닌 인수입니다
+> ?mean
+> x<-c(1,2,3)
+> x
+[1] 1 2 3
+> mean(x)
+[1] 2
+> max(x)
+[1] 3
+> min(x)
+[1] 1
+> str1+str2
+Error in str1 + str2 : 이항연산자에 수치가 아닌 인수입니다
+> str1
+[1] "a"
+> str2
+[1] "text"
+> paste(str1,str2)
+[1] "a text"
+> paste(str1, str2, collapse=",")
+[1] "a text"
+> 
+> 
+> 
+> 
+> 
+> x_mean <-mean(x)
+> x_mean
+[1] 2
+> 
+> 
+> 
+> install.packages("ggplot2")
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+also installing the dependencies ‘ps’, ‘processx’, ‘callr’, ‘prettyunits’, ‘backports’, ‘desc’, ‘pkgbuild’, ‘rprojroot’, ‘rstudioapi’, ‘evaluate’, ‘pkgload’, ‘praise’, ‘colorspace’, ‘assertthat’, ‘utf8’, ‘testthat’, ‘farver’, ‘labeling’, ‘lifecycle’, ‘munsell’, ‘R6’, ‘RColorBrewer’, ‘viridisLite’, ‘cli’, ‘crayon’, ‘ellipsis’, ‘fansi’, ‘magrittr’, ‘pillar’, ‘pkgconfig’, ‘vctrs’, ‘digest’, ‘glue’, ‘gtable’, ‘isoband’, ‘rlang’, ‘scales’, ‘tibble’, ‘withr’
+
+
+  There is a binary version available but the source version is later:
+          binary source needs_compilation
+backports  1.1.7  1.1.8              TRUE
+
+  Binaries will be installed
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/ps_1.3.3.zip'을 시도합니다
+Content type 'application/zip' length 697951 bytes (681 KB)
+downloaded 681 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/processx_3.4.2.zip'을 시도합니다
+Content type 'application/zip' length 1121197 bytes (1.1 MB)
+downloaded 1.1 MB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/callr_3.4.3.zip'을 시도합니다
+Content type 'application/zip' length 390256 bytes (381 KB)
+downloaded 381 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/prettyunits_1.1.1.zip'을 시도합니다
+Content type 'application/zip' length 37437 bytes (36 KB)
+downloaded 36 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/backports_1.1.7.zip'을 시도합니다
+Content type 'application/zip' length 81641 bytes (79 KB)
+downloaded 79 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/desc_1.2.0.zip'을 시도합니다
+Content type 'application/zip' length 280829 bytes (274 KB)
+downloaded 274 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/pkgbuild_1.0.8.zip'을 시도합니다
+Content type 'application/zip' length 138370 bytes (135 KB)
+downloaded 135 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/rprojroot_1.3-2.zip'을 시도합니다
+Content type 'application/zip' length 84624 bytes (82 KB)
+downloaded 82 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/rstudioapi_0.11.zip'을 시도합니다
+Content type 'application/zip' length 280160 bytes (273 KB)
+downloaded 273 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/evaluate_0.14.zip'을 시도합니다
+Content type 'application/zip' length 76406 bytes (74 KB)
+downloaded 74 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/pkgload_1.1.0.zip'을 시도합니다
+Content type 'application/zip' length 162039 bytes (158 KB)
+downloaded 158 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/praise_1.0.0.zip'을 시도합니다
+Content type 'application/zip' length 19663 bytes (19 KB)
+downloaded 19 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/colorspace_1.4-1.zip'을 시도합니다
+Content type 'application/zip' length 2595922 bytes (2.5 MB)
+downloaded 2.5 MB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/assertthat_0.2.1.zip'을 시도합니다
+Content type 'application/zip' length 54883 bytes (53 KB)
+downloaded 53 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/utf8_1.1.4.zip'을 시도합니다
+Content type 'application/zip' length 208646 bytes (203 KB)
+downloaded 203 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/testthat_2.3.2.zip'을 시도합니다
+Content type 'application/zip' length 1973657 bytes (1.9 MB)
+downloaded 1.9 MB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/farver_2.0.3.zip'을 시도합니다
+Content type 'application/zip' length 1694081 bytes (1.6 MB)
+downloaded 1.6 MB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/labeling_0.3.zip'을 시도합니다
+Content type 'application/zip' length 62226 bytes (60 KB)
+downloaded 60 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/lifecycle_0.2.0.zip'을 시도합니다
+Content type 'application/zip' length 101545 bytes (99 KB)
+downloaded 99 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/munsell_0.5.0.zip'을 시도합니다
+Content type 'application/zip' length 244143 bytes (238 KB)
+downloaded 238 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/R6_2.4.1.zip'을 시도합니다
+Content type 'application/zip' length 59096 bytes (57 KB)
+downloaded 57 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/RColorBrewer_1.1-2.zip'을 시도합니다
+Content type 'application/zip' length 55583 bytes (54 KB)
+downloaded 54 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/viridisLite_0.3.0.zip'을 시도합니다
+Content type 'application/zip' length 60502 bytes (59 KB)
+downloaded 59 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/cli_2.0.2.zip'을 시도합니다
+Content type 'application/zip' length 397359 bytes (388 KB)
+downloaded 388 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/crayon_1.3.4.zip'을 시도합니다
+Content type 'application/zip' length 749567 bytes (731 KB)
+downloaded 731 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/ellipsis_0.3.1.zip'을 시도합니다
+Content type 'application/zip' length 45992 bytes (44 KB)
+downloaded 44 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/fansi_0.4.1.zip'을 시도합니다
+Content type 'application/zip' length 222150 bytes (216 KB)
+downloaded 216 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/magrittr_1.5.zip'을 시도합니다
+Content type 'application/zip' length 157312 bytes (153 KB)
+downloaded 153 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/pillar_1.4.4.zip'을 시도합니다
+Content type 'application/zip' length 185314 bytes (180 KB)
+downloaded 180 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/pkgconfig_2.0.3.zip'을 시도합니다
+Content type 'application/zip' length 22130 bytes (21 KB)
+downloaded 21 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/vctrs_0.3.1.zip'을 시도합니다
+Content type 'application/zip' length 1146156 bytes (1.1 MB)
+downloaded 1.1 MB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/digest_0.6.25.zip'을 시도합니다
+Content type 'application/zip' length 244536 bytes (238 KB)
+downloaded 238 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/glue_1.4.1.zip'을 시도합니다
+Content type 'application/zip' length 154615 bytes (150 KB)
+downloaded 150 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/gtable_0.3.0.zip'을 시도합니다
+Content type 'application/zip' length 433777 bytes (423 KB)
+downloaded 423 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/isoband_0.2.2.zip'을 시도합니다
+Content type 'application/zip' length 3408679 bytes (3.3 MB)
+downloaded 3.3 MB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/rlang_0.4.6.zip'을 시도합니다
+Content type 'application/zip' length 1106182 bytes (1.1 MB)
+downloaded 1.1 MB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/scales_1.1.1.zip'을 시도합니다
+Content type 'application/zip' length 562089 bytes (548 KB)
+downloaded 548 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/tibble_3.0.1.zip'을 시도합니다
+Content type 'application/zip' length 410232 bytes (400 KB)
+downloaded 400 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/withr_2.2.0.zip'을 시도합니다
+Content type 'application/zip' length 205711 bytes (200 KB)
+downloaded 200 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/ggplot2_3.3.2.zip'을 시도합니다
+Content type 'application/zip' length 4068336 bytes (3.9 MB)
+downloaded 3.9 MB
+
+package ‘ps’ successfully unpacked and MD5 sums checked
+package ‘processx’ successfully unpacked and MD5 sums checked
+package ‘callr’ successfully unpacked and MD5 sums checked
+package ‘prettyunits’ successfully unpacked and MD5 sums checked
+package ‘backports’ successfully unpacked and MD5 sums checked
+package ‘desc’ successfully unpacked and MD5 sums checked
+package ‘pkgbuild’ successfully unpacked and MD5 sums checked
+package ‘rprojroot’ successfully unpacked and MD5 sums checked
+package ‘rstudioapi’ successfully unpacked and MD5 sums checked
+package ‘evaluate’ successfully unpacked and MD5 sums checked
+package ‘pkgload’ successfully unpacked and MD5 sums checked
+package ‘praise’ successfully unpacked and MD5 sums checked
+package ‘colorspace’ successfully unpacked and MD5 sums checked
+package ‘assertthat’ successfully unpacked and MD5 sums checked
+package ‘utf8’ successfully unpacked and MD5 sums checked
+package ‘testthat’ successfully unpacked and MD5 sums checked
+package ‘farver’ successfully unpacked and MD5 sums checked
+package ‘labeling’ successfully unpacked and MD5 sums checked
+package ‘lifecycle’ successfully unpacked and MD5 sums checked
+package ‘munsell’ successfully unpacked and MD5 sums checked
+package ‘R6’ successfully unpacked and MD5 sums checked
+package ‘RColorBrewer’ successfully unpacked and MD5 sums checked
+package ‘viridisLite’ successfully unpacked and MD5 sums checked
+package ‘cli’ successfully unpacked and MD5 sums checked
+package ‘crayon’ successfully unpacked and MD5 sums checked
+package ‘ellipsis’ successfully unpacked and MD5 sums checked
+package ‘fansi’ successfully unpacked and MD5 sums checked
+package ‘magrittr’ successfully unpacked and MD5 sums checked
+package ‘pillar’ successfully unpacked and MD5 sums checked
+package ‘pkgconfig’ successfully unpacked and MD5 sums checked
+package ‘vctrs’ successfully unpacked and MD5 sums checked
+package ‘digest’ successfully unpacked and MD5 sums checked
+package ‘glue’ successfully unpacked and MD5 sums checked
+package ‘gtable’ successfully unpacked and MD5 sums checked
+package ‘isoband’ successfully unpacked and MD5 sums checked
+package ‘rlang’ successfully unpacked and MD5 sums checked
+package ‘scales’ successfully unpacked and MD5 sums checked
+package ‘tibble’ successfully unpacked and MD5 sums checked
+package ‘withr’ successfully unpacked and MD5 sums checked
+package ‘ggplot2’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\user\AppData\Local\Temp\Rtmp0cZ3yh\downloaded_packages
+> 
+> 
+> 
+> 
+> x<-c("a","a", "b", "C")
+> qplot(x)
+Error in qplot(x) : 함수 "qplot"를 찾을 수 없습니다
+> library(ggplot2)
+경고메시지(들): 
+패키지 ‘ggplot2’는 R 버전 4.0.2에서 작성되었습니다 
+> qplot(x)
+> install.packages("dplyr")
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+also installing the dependencies ‘purrr’, ‘generics’, ‘tidyselect’
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/purrr_0.3.4.zip'을 시도합니다
+Content type 'application/zip' length 421833 bytes (411 KB)
+downloaded 411 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/generics_0.0.2.zip'을 시도합니다
+Content type 'application/zip' length 63622 bytes (62 KB)
+downloaded 62 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/tidyselect_1.1.0.zip'을 시도합니다
+Content type 'application/zip' length 202892 bytes (198 KB)
+downloaded 198 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/dplyr_1.0.0.zip'을 시도합니다
+Content type 'application/zip' length 1300394 bytes (1.2 MB)
+downloaded 1.2 MB
+
+package ‘purrr’ successfully unpacked and MD5 sums checked
+package ‘generics’ successfully unpacked and MD5 sums checked
+package ‘tidyselect’ successfully unpacked and MD5 sums checked
+package ‘dplyr’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\user\AppData\Local\Temp\Rtmp0cZ3yh\downloaded_packages
+> 
+> 
+> 
+> 
+> 
+> english<-c(90,80,60,70)
+> english
+[1] 90 80 60 70
+> math<-c(50,60,100,20)
+> math
+[1]  50  60 100  20
+> df_midterm<-data.frame(english,math)
+> df_midterm
+  english math
+1      90   50
+2      80   60
+3      60  100
+4      70   20
+> 
+> 
+> class<-c(1,1,2,2)
+> class
+[1] 1 1 2 2
+> df_midterm<-data.frame(english,math,class)
+> df_midterm
+  english math class
+1      90   50     1
+2      80   60     1
+3      60  100     2
+4      70   20     2
+> mean(df_midterm$english)
+[1] 75
+> mean(df_midterm$math)
+[1] 57.5
+> 
+> 
+> data.frame(dfmidterm,class)
+Error in data.frame(dfmidterm, class) : 
+  객체 'dfmidterm'를 찾을 수 없습니다
+> 
+> 
+> df_midterm=data.frame(english=c(90,80,60,70),
++                       math=c(50,60,100,20),
++                       class=c(1,1,2,2))
+> df_midterm
+  english math class
+1      90   50     1
+2      80   60     1
+3      60  100     2
+4      70   20     2
+> 
+> 
+> df_mideterm
+에러: 객체 'df_mideterm'를 찾을 수 없습니다
+> df_midterm
+  english math class
+1      90   50     1
+2      80   60     1
+3      60  100     2
+4      70   20     2
+> 
+> 
+> 
+> install.packages("readxl")
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+also installing the dependencies ‘rematch’, ‘hms’, ‘cellranger’, ‘Rcpp’, ‘progress’
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/rematch_1.0.1.zip'을 시도합니다
+Content type 'application/zip' length 16031 bytes (15 KB)
+downloaded 15 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/hms_0.5.3.zip'을 시도합니다
+Content type 'application/zip' length 107599 bytes (105 KB)
+downloaded 105 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/cellranger_1.1.0.zip'을 시도합니다
+Content type 'application/zip' length 103615 bytes (101 KB)
+downloaded 101 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/Rcpp_1.0.4.6.zip'을 시도합니다
+Content type 'application/zip' length 3167452 bytes (3.0 MB)
+downloaded 3.0 MB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/progress_1.2.2.zip'을 시도합니다
+Content type 'application/zip' length 85156 bytes (83 KB)
+downloaded 83 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/readxl_1.3.1.zip'을 시도합니다
+Content type 'application/zip' length 1708827 bytes (1.6 MB)
+downloaded 1.6 MB
+
+package ‘rematch’ successfully unpacked and MD5 sums checked
+package ‘hms’ successfully unpacked and MD5 sums checked
+package ‘cellranger’ successfully unpacked and MD5 sums checked
+package ‘Rcpp’ successfully unpacked and MD5 sums checked
+package ‘progress’ successfully unpacked and MD5 sums checked
+package ‘readxl’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\user\AppData\Local\Temp\Rtmp0cZ3yh\downloaded_packages
+> 
+> 
+> 
+> library(readxl)
+> 
+> library(readxl)
+> df_exam <- read_excel("excel_exam.xlsx")
+> View(df_exam)
+> 
+> 
+> 
+> head(df_exam,10)
+# A tibble: 10 x 5
+      id class  math english science
+   <dbl> <dbl> <dbl>   <dbl>   <dbl>
+ 1     1     1    50      98      50
+ 2     2     1    60      97      60
+ 3     3     1    45      86      78
+ 4     4     1    30      98      58
+ 5     5     2    25      80      65
+ 6     6     2    50      89      98
+ 7     7     2    80      90      45
+ 8     8     2    90      78      25
+ 9     9     3    20      98      15
+10    10     3    50      98      45
+> 
+> 
+> 
+> mean(df_exam$english)
+[1] 84.9
+> mean(df_exam$science)
+[1] 59.45
+> library(readxl)
+> df_exam_novar <- read_excel("excel_exam_novar.xlsx", 
++     col_names = FALSE)
+New names:
+* `` -> ...1
+* `` -> ...2
+* `` -> ...3
+* `` -> ...4
+* `` -> ...5
+> View(df_exam_novar)
+> library(readxl)
+> df_exam_sheet <- read_excel("excel_exam_sheet.xlsx", 
++     sheet = "Sheet3")
+> View(df_exam_sheet)
+> 
+> 
+> 
+> df_csv_exam<-read.csv("csv_exam.csv")
+> df_csv_exam
+   id class math english science
+1   1     1   50      98      50
+2   2     1   60      97      60
+3   3     1   45      86      78
+4   4     1   30      98      58
+5   5     2   25      80      65
+6   6     2   50      89      98
+7   7     2   80      90      45
+8   8     2   90      78      25
+9   9     3   20      98      15
+10 10     3   50      98      45
+11 11     3   65      65      65
+12 12     3   45      85      32
+13 13     4   46      98      65
+14 14     4   48      87      12
+15 15     4   75      56      78
+16 16     4   58      98      65
+17 17     5   65      68      98
+18 18     5   80      78      90
+19 19     5   89      68      87
+20 20     5   78      83      58
+> 
+> 
+> 
+> 
+> df_midterm <- data.fram(english=c(90,80,60,70),
++                         math = c(50,60, 100, 20),)
+Error in data.fram(english = c(90, 80, 60, 70), math = c(50, 60, 100,  : 
+  함수 "data.fram"를 찾을 수 없습니다
+> df_midterm <- data.fram(english=c(90,80,60,70),
++                         math = c(50,60, 100, 20),
++                         class=c(1,1,2,2))
+Error in data.fram(english = c(90, 80, 60, 70), math = c(50, 60, 100,  : 
+  함수 "data.fram"를 찾을 수 없습니다
+> df_midterm <- data.frame(english=c(90,80,60,70),
++                         math = c(50,60, 100, 20),
++                         class=c(1,1,2,2))
+> df_midterm
+  english math class
+1      90   50     1
+2      80   60     1
+3      60  100     2
+4      70   20     2
+> write.csv(df_midterm, file="df_midterm.csv")
+> 
+> 
+> df<-read.csv("df_midterm.csv")
+> df
+  X english math class
+1 1      90   50     1
+2 2      80   60     1
+3 3      60  100     2
+4 4      70   20     2
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> save(df_midterm, file="df_midterm.rda")
+> 
+> df_midterm
+  english math class
+1      90   50     1
+2      80   60     1
+3      60  100     2
+4      70   20     2
+> 
+> 
+> rm(df_midterm)
+> df_midterm
+에러: 객체 'df_midterm'를 찾을 수 없습니다
+> is.null(df_midterm)
+에러: 객체 'df_midterm'를 찾을 수 없습니다
+> df_midterm <-load("df_midterm.rda")
+> df_midterm
+[1] "df_midterm"
+> load("df_midterm.rda")
+> df_midterm
+  english math class
+1      90   50     1
+2      80   60     1
+3      60  100     2
+4      70   20     2
+> 
+> 
+> 
+> view(df_midterm)
+Error in view(df_midterm) : 함수 "view"를 찾을 수 없습니다
+> install.packages("view")
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Warning in install.packages :
+  package ‘view’ is not available (for R version 4.0.1)
+> view(df_midterm)
+Error in view(df_midterm) : 함수 "view"를 찾을 수 없습니다
+> 
+> 
+> 
+> 
+> exam<-read.csv("csv_exam.csv")
+> head(exam)
+  id class math english science
+1  1     1   50      98      50
+2  2     1   60      97      60
+3  3     1   45      86      78
+4  4     1   30      98      58
+5  5     2   25      80      65
+6  6     2   50      89      98
+> tain(exam)
+Error in tain(exam) : 함수 "tain"를 찾을 수 없습니다
+> tail(exam)
+   id class math english science
+15 15     4   75      56      78
+16 16     4   58      98      65
+17 17     5   65      68      98
+18 18     5   80      78      90
+19 19     5   89      68      87
+20 20     5   78      83      58
+> 
+> 
+> View(exam)
+> 
+> dim(exam)
+[1] 20  5
+> 
+> str(exam)
+'data.frame':	20 obs. of  5 variables:
+ $ id     : int  1 2 3 4 5 6 7 8 9 10 ...
+ $ class  : int  1 1 1 1 2 2 2 2 3 3 ...
+ $ math   : int  50 60 45 30 25 50 80 90 20 50 ...
+ $ english: int  98 97 86 98 80 89 90 78 98 98 ...
+ $ science: int  50 60 78 58 65 98 45 25 15 45 ...
+> 
+> 
+> summary(exam)
+       id            class        math          english        science     
+ Min.   : 1.00   Min.   :1   Min.   :20.00   Min.   :56.0   Min.   :12.00  
+ 1st Qu.: 5.75   1st Qu.:2   1st Qu.:45.75   1st Qu.:78.0   1st Qu.:45.00  
+ Median :10.50   Median :3   Median :54.00   Median :86.5   Median :62.50  
+ Mean   :10.50   Mean   :3   Mean   :57.45   Mean   :84.9   Mean   :59.45  
+ 3rd Qu.:15.25   3rd Qu.:4   3rd Qu.:75.75   3rd Qu.:98.0   3rd Qu.:78.00  
+ Max.   :20.00   Max.   :5   Max.   :90.00   Max.   :98.0   Max.   :98.00  
+> 
+> 
+> mpg<-as.data.frame(gglot2::mpg)
+Error in loadNamespace(name) : ‘gglot2’이라고 불리는 패키지가 없습니다
+> mpg<-as.data.frame(ggplot2::mpg)
+> ?mpg
+> 
+> 
+> ggplot2::mpg
+# A tibble: 234 x 11
+   manufacturer model      displ  year   cyl trans      drv     cty   hwy fl    class  
+   <chr>        <chr>      <dbl> <int> <int> <chr>      <chr> <int> <int> <chr> <chr>  
+ 1 audi         a4           1.8  1999     4 auto(l5)   f        18    29 p     compact
+ 2 audi         a4           1.8  1999     4 manual(m5) f        21    29 p     compact
+ 3 audi         a4           2    2008     4 manual(m6) f        20    31 p     compact
+ 4 audi         a4           2    2008     4 auto(av)   f        21    30 p     compact
+ 5 audi         a4           2.8  1999     6 auto(l5)   f        16    26 p     compact
+ 6 audi         a4           2.8  1999     6 manual(m5) f        18    26 p     compact
+ 7 audi         a4           3.1  2008     6 auto(av)   f        18    27 p     compact
+ 8 audi         a4 quattro   1.8  1999     4 manual(m5) 4        18    26 p     compact
+ 9 audi         a4 quattro   1.8  1999     4 auto(l5)   4        16    25 p     compact
+10 audi         a4 quattro   2    2008     4 manual(m6) 4        20    28 p     compact
+# ... with 224 more rows
+> mpg
+   manufacturer               model displ year cyl      trans drv cty hwy fl   class
+1          audi                  a4   1.8 1999   4   auto(l5)   f  18  29  p compact
+2          audi                  a4   1.8 1999   4 manual(m5)   f  21  29  p compact
+3          audi                  a4   2.0 2008   4 manual(m6)   f  20  31  p compact
+4          audi                  a4   2.0 2008   4   auto(av)   f  21  30  p compact
+5          audi                  a4   2.8 1999   6   auto(l5)   f  16  26  p compact
+6          audi                  a4   2.8 1999   6 manual(m5)   f  18  26  p compact
+7          audi                  a4   3.1 2008   6   auto(av)   f  18  27  p compact
+8          audi          a4 quattro   1.8 1999   4 manual(m5)   4  18  26  p compact
+9          audi          a4 quattro   1.8 1999   4   auto(l5)   4  16  25  p compact
+10         audi          a4 quattro   2.0 2008   4 manual(m6)   4  20  28  p compact
+11         audi          a4 quattro   2.0 2008   4   auto(s6)   4  19  27  p compact
+12         audi          a4 quattro   2.8 1999   6   auto(l5)   4  15  25  p compact
+13         audi          a4 quattro   2.8 1999   6 manual(m5)   4  17  25  p compact
+14         audi          a4 quattro   3.1 2008   6   auto(s6)   4  17  25  p compact
+15         audi          a4 quattro   3.1 2008   6 manual(m6)   4  15  25  p compact
+16         audi          a6 quattro   2.8 1999   6   auto(l5)   4  15  24  p midsize
+17         audi          a6 quattro   3.1 2008   6   auto(s6)   4  17  25  p midsize
+18         audi          a6 quattro   4.2 2008   8   auto(s6)   4  16  23  p midsize
+19    chevrolet  c1500 suburban 2wd   5.3 2008   8   auto(l4)   r  14  20  r     suv
+20    chevrolet  c1500 suburban 2wd   5.3 2008   8   auto(l4)   r  11  15  e     suv
+21    chevrolet  c1500 suburban 2wd   5.3 2008   8   auto(l4)   r  14  20  r     suv
+22    chevrolet  c1500 suburban 2wd   5.7 1999   8   auto(l4)   r  13  17  r     suv
+23    chevrolet  c1500 suburban 2wd   6.0 2008   8   auto(l4)   r  12  17  r     suv
+24    chevrolet            corvette   5.7 1999   8 manual(m6)   r  16  26  p 2seater
+25    chevrolet            corvette   5.7 1999   8   auto(l4)   r  15  23  p 2seater
+26    chevrolet            corvette   6.2 2008   8 manual(m6)   r  16  26  p 2seater
+27    chevrolet            corvette   6.2 2008   8   auto(s6)   r  15  25  p 2seater
+28    chevrolet            corvette   7.0 2008   8 manual(m6)   r  15  24  p 2seater
+29    chevrolet     k1500 tahoe 4wd   5.3 2008   8   auto(l4)   4  14  19  r     suv
+30    chevrolet     k1500 tahoe 4wd   5.3 2008   8   auto(l4)   4  11  14  e     suv
+31    chevrolet     k1500 tahoe 4wd   5.7 1999   8   auto(l4)   4  11  15  r     suv
+32    chevrolet     k1500 tahoe 4wd   6.5 1999   8   auto(l4)   4  14  17  d     suv
+33    chevrolet              malibu   2.4 1999   4   auto(l4)   f  19  27  r midsize
+34    chevrolet              malibu   2.4 2008   4   auto(l4)   f  22  30  r midsize
+35    chevrolet              malibu   3.1 1999   6   auto(l4)   f  18  26  r midsize
+36    chevrolet              malibu   3.5 2008   6   auto(l4)   f  18  29  r midsize
+37    chevrolet              malibu   3.6 2008   6   auto(s6)   f  17  26  r midsize
+38        dodge         caravan 2wd   2.4 1999   4   auto(l3)   f  18  24  r minivan
+39        dodge         caravan 2wd   3.0 1999   6   auto(l4)   f  17  24  r minivan
+40        dodge         caravan 2wd   3.3 1999   6   auto(l4)   f  16  22  r minivan
+41        dodge         caravan 2wd   3.3 1999   6   auto(l4)   f  16  22  r minivan
+42        dodge         caravan 2wd   3.3 2008   6   auto(l4)   f  17  24  r minivan
+43        dodge         caravan 2wd   3.3 2008   6   auto(l4)   f  17  24  r minivan
+44        dodge         caravan 2wd   3.3 2008   6   auto(l4)   f  11  17  e minivan
+45        dodge         caravan 2wd   3.8 1999   6   auto(l4)   f  15  22  r minivan
+46        dodge         caravan 2wd   3.8 1999   6   auto(l4)   f  15  21  r minivan
+47        dodge         caravan 2wd   3.8 2008   6   auto(l6)   f  16  23  r minivan
+48        dodge         caravan 2wd   4.0 2008   6   auto(l6)   f  16  23  r minivan
+49        dodge   dakota pickup 4wd   3.7 2008   6 manual(m6)   4  15  19  r  pickup
+50        dodge   dakota pickup 4wd   3.7 2008   6   auto(l4)   4  14  18  r  pickup
+51        dodge   dakota pickup 4wd   3.9 1999   6   auto(l4)   4  13  17  r  pickup
+52        dodge   dakota pickup 4wd   3.9 1999   6 manual(m5)   4  14  17  r  pickup
+53        dodge   dakota pickup 4wd   4.7 2008   8   auto(l5)   4  14  19  r  pickup
+54        dodge   dakota pickup 4wd   4.7 2008   8   auto(l5)   4  14  19  r  pickup
+55        dodge   dakota pickup 4wd   4.7 2008   8   auto(l5)   4   9  12  e  pickup
+56        dodge   dakota pickup 4wd   5.2 1999   8 manual(m5)   4  11  17  r  pickup
+57        dodge   dakota pickup 4wd   5.2 1999   8   auto(l4)   4  11  15  r  pickup
+58        dodge         durango 4wd   3.9 1999   6   auto(l4)   4  13  17  r     suv
+59        dodge         durango 4wd   4.7 2008   8   auto(l5)   4  13  17  r     suv
+60        dodge         durango 4wd   4.7 2008   8   auto(l5)   4   9  12  e     suv
+61        dodge         durango 4wd   4.7 2008   8   auto(l5)   4  13  17  r     suv
+62        dodge         durango 4wd   5.2 1999   8   auto(l4)   4  11  16  r     suv
+63        dodge         durango 4wd   5.7 2008   8   auto(l5)   4  13  18  r     suv
+64        dodge         durango 4wd   5.9 1999   8   auto(l4)   4  11  15  r     suv
+65        dodge ram 1500 pickup 4wd   4.7 2008   8 manual(m6)   4  12  16  r  pickup
+66        dodge ram 1500 pickup 4wd   4.7 2008   8   auto(l5)   4   9  12  e  pickup
+67        dodge ram 1500 pickup 4wd   4.7 2008   8   auto(l5)   4  13  17  r  pickup
+68        dodge ram 1500 pickup 4wd   4.7 2008   8   auto(l5)   4  13  17  r  pickup
+69        dodge ram 1500 pickup 4wd   4.7 2008   8 manual(m6)   4  12  16  r  pickup
+70        dodge ram 1500 pickup 4wd   4.7 2008   8 manual(m6)   4   9  12  e  pickup
+71        dodge ram 1500 pickup 4wd   5.2 1999   8   auto(l4)   4  11  15  r  pickup
+72        dodge ram 1500 pickup 4wd   5.2 1999   8 manual(m5)   4  11  16  r  pickup
+73        dodge ram 1500 pickup 4wd   5.7 2008   8   auto(l5)   4  13  17  r  pickup
+74        dodge ram 1500 pickup 4wd   5.9 1999   8   auto(l4)   4  11  15  r  pickup
+75         ford      expedition 2wd   4.6 1999   8   auto(l4)   r  11  17  r     suv
+76         ford      expedition 2wd   5.4 1999   8   auto(l4)   r  11  17  r     suv
+77         ford      expedition 2wd   5.4 2008   8   auto(l6)   r  12  18  r     suv
+78         ford        explorer 4wd   4.0 1999   6   auto(l5)   4  14  17  r     suv
+79         ford        explorer 4wd   4.0 1999   6 manual(m5)   4  15  19  r     suv
+80         ford        explorer 4wd   4.0 1999   6   auto(l5)   4  14  17  r     suv
+81         ford        explorer 4wd   4.0 2008   6   auto(l5)   4  13  19  r     suv
+82         ford        explorer 4wd   4.6 2008   8   auto(l6)   4  13  19  r     suv
+83         ford        explorer 4wd   5.0 1999   8   auto(l4)   4  13  17  r     suv
+84         ford     f150 pickup 4wd   4.2 1999   6   auto(l4)   4  14  17  r  pickup
+85         ford     f150 pickup 4wd   4.2 1999   6 manual(m5)   4  14  17  r  pickup
+86         ford     f150 pickup 4wd   4.6 1999   8 manual(m5)   4  13  16  r  pickup
+87         ford     f150 pickup 4wd   4.6 1999   8   auto(l4)   4  13  16  r  pickup
+88         ford     f150 pickup 4wd   4.6 2008   8   auto(l4)   4  13  17  r  pickup
+89         ford     f150 pickup 4wd   5.4 1999   8   auto(l4)   4  11  15  r  pickup
+90         ford     f150 pickup 4wd   5.4 2008   8   auto(l4)   4  13  17  r  pickup
+ [ reached 'max' / getOption("max.print") -- omitted 144 rows ]
+> str(mpg)
+'data.frame':	234 obs. of  11 variables:
+ $ manufacturer: chr  "audi" "audi" "audi" "audi" ...
+ $ model       : chr  "a4" "a4" "a4" "a4" ...
+ $ displ       : num  1.8 1.8 2 2 2.8 2.8 3.1 1.8 1.8 2 ...
+ $ year        : int  1999 1999 2008 2008 1999 1999 2008 1999 1999 2008 ...
+ $ cyl         : int  4 4 4 4 6 6 6 4 4 4 ...
+ $ trans       : chr  "auto(l5)" "manual(m5)" "manual(m6)" "auto(av)" ...
+ $ drv         : chr  "f" "f" "f" "f" ...
+ $ cty         : int  18 21 20 21 16 18 18 18 16 20 ...
+ $ hwy         : int  29 29 31 30 26 26 27 26 25 28 ...
+ $ fl          : chr  "p" "p" "p" "p" ...
+ $ class       : chr  "compact" "compact" "compact" "compact" ...
+> str
+function (object, ...) 
+UseMethod("str")
+<bytecode: 0x000001b0ae9acfd8>
+<environment: namespace:utils>
+> str(mpg)
+'data.frame':	234 obs. of  11 variables:
+ $ manufacturer: chr  "audi" "audi" "audi" "audi" ...
+ $ model       : chr  "a4" "a4" "a4" "a4" ...
+ $ displ       : num  1.8 1.8 2 2 2.8 2.8 3.1 1.8 1.8 2 ...
+ $ year        : int  1999 1999 2008 2008 1999 1999 2008 1999 1999 2008 ...
+ $ cyl         : int  4 4 4 4 6 6 6 4 4 4 ...
+ $ trans       : chr  "auto(l5)" "manual(m5)" "manual(m6)" "auto(av)" ...
+ $ drv         : chr  "f" "f" "f" "f" ...
+ $ cty         : int  18 21 20 21 16 18 18 18 16 20 ...
+ $ hwy         : int  29 29 31 30 26 26 27 26 25 28 ...
+ $ fl          : chr  "p" "p" "p" "p" ...
+ $ class       : chr  "compact" "compact" "compact" "compact" ...
+> 
+> 
+> 
+> install.packages("dplyr")
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/dplyr_1.0.0.zip'을 시도합니다
+Content type 'application/zip' length 1300394 bytes (1.2 MB)
+downloaded 1.2 MB
+
+package ‘dplyr’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\user\AppData\Local\Temp\Rtmp0cZ3yh\downloaded_packages
+> library(dplyr)
+
+다음의 패키지를 부착합니다: ‘dplyr’
+
+The following object is masked from ‘package:ggplot2’:
+
+    vars
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+> 
+> 
+> 
+> 
+> 
+> df_raw<-data.fram(var1=c(1,2,1),
++                   var2=c(2,3,2))
+Error in data.fram(var1 = c(1, 2, 1), var2 = c(2, 3, 2)) : 
+  함수 "data.fram"를 찾을 수 없습니다
+> 
+> df_raw
+에러: 객체 'df_raw'를 찾을 수 없습니다
+> 
+> df_raw<-data.frame(var1=c(1,2,1),
++                    var2=c(2,3,2))
+> df_raw
+  var1 var2
+1    1    2
+2    2    3
+3    1    2
+> df_new <- df_raw
+> df_new <- ranem(df_new, v2=var2)
+Error in ranem(df_new, v2 = var2) : 함수 "ranem"를 찾을 수 없습니다
+> df_new <-rename(df_new, v2=var2)
+> df_raw
+  var1 var2
+1    1    2
+2    2    3
+3    1    2
+> df_new
+  var1 v2
+1    1  2
+2    2  3
+3    1  2
+> 
+> 
+> 
+> 
+> df<-data.frame(var1=c(4,3,8),)
+Error in data.frame(var1 = c(4, 3, 8), ) : 
+  기본값이 없는 인수가 누락되어 있습니다
+> df<-data.frame(var1=c(4,3,8),
++                var2=c(2,6,1))
+> df
+  var1 var2
+1    4    2
+2    3    6
+3    8    1
+> df$var_sum <-df$var1+df$var2
+> df
+  var1 var2 var_sum
+1    4    2       6
+2    3    6       9
+3    8    1       9
+> 
+> 
+> df$var_mean <- (df$var1 + df$var2)/2
+> df
+  var1 var2 var_sum var_mean
+1    4    2       6      3.0
+2    3    6       9      4.5
+3    8    1       9      4.5
+> 
+> 
+> mpg&total<-(mpg$cty+mpg$hwy)/2
+Error in mpg & total <- (mpg$cty + mpg$hwy)/2 : 
+  함수 "&<-"를 찾을 수 없습니다
+> mpg&total <- (mpg$cty + mpg$hwy)/2
+Error in mpg & total <- (mpg$cty + mpg$hwy)/2 : 
+  함수 "&<-"를 찾을 수 없습니다
+> mpg$total <- (mpg$cty + mpg$hwy)/2
+> head(mpg)
+  manufacturer model displ year cyl      trans drv cty hwy fl   class total
+1         audi    a4   1.8 1999   4   auto(l5)   f  18  29  p compact  23.5
+2         audi    a4   1.8 1999   4 manual(m5)   f  21  29  p compact  25.0
+3         audi    a4   2.0 2008   4 manual(m6)   f  20  31  p compact  25.5
+4         audi    a4   2.0 2008   4   auto(av)   f  21  30  p compact  25.5
+5         audi    a4   2.8 1999   6   auto(l5)   f  16  26  p compact  21.0
+6         audi    a4   2.8 1999   6 manual(m5)   f  18  26  p compact  22.0
+> mean(mpg$total)
+[1] 20.14957
+> summary(mpg$total)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  10.50   15.50   20.50   20.15   23.50   39.50 
+> hist(mpg$total)
+> 
+> 
+> 
+> mpg$test <-ifelse(mpg$total >=20, "pass", "fail")
+> head(mpg,20)
+   manufacturer              model displ year cyl      trans drv cty hwy fl   class total test
+1          audi                 a4   1.8 1999   4   auto(l5)   f  18  29  p compact  23.5 pass
+2          audi                 a4   1.8 1999   4 manual(m5)   f  21  29  p compact  25.0 pass
+3          audi                 a4   2.0 2008   4 manual(m6)   f  20  31  p compact  25.5 pass
+4          audi                 a4   2.0 2008   4   auto(av)   f  21  30  p compact  25.5 pass
+5          audi                 a4   2.8 1999   6   auto(l5)   f  16  26  p compact  21.0 pass
+6          audi                 a4   2.8 1999   6 manual(m5)   f  18  26  p compact  22.0 pass
+7          audi                 a4   3.1 2008   6   auto(av)   f  18  27  p compact  22.5 pass
+8          audi         a4 quattro   1.8 1999   4 manual(m5)   4  18  26  p compact  22.0 pass
+9          audi         a4 quattro   1.8 1999   4   auto(l5)   4  16  25  p compact  20.5 pass
+10         audi         a4 quattro   2.0 2008   4 manual(m6)   4  20  28  p compact  24.0 pass
+11         audi         a4 quattro   2.0 2008   4   auto(s6)   4  19  27  p compact  23.0 pass
+12         audi         a4 quattro   2.8 1999   6   auto(l5)   4  15  25  p compact  20.0 pass
+13         audi         a4 quattro   2.8 1999   6 manual(m5)   4  17  25  p compact  21.0 pass
+14         audi         a4 quattro   3.1 2008   6   auto(s6)   4  17  25  p compact  21.0 pass
+15         audi         a4 quattro   3.1 2008   6 manual(m6)   4  15  25  p compact  20.0 pass
+16         audi         a6 quattro   2.8 1999   6   auto(l5)   4  15  24  p midsize  19.5 fail
+17         audi         a6 quattro   3.1 2008   6   auto(s6)   4  17  25  p midsize  21.0 pass
+18         audi         a6 quattro   4.2 2008   8   auto(s6)   4  16  23  p midsize  19.5 fail
+19    chevrolet c1500 suburban 2wd   5.3 2008   8   auto(l4)   r  14  20  r     suv  17.0 fail
+20    chevrolet c1500 suburban 2wd   5.3 2008   8   auto(l4)   r  11  15  e     suv  13.0 fail
+> 
+> 
+> table(mpg$test)
+
+fail pass 
+ 106  128 
+> 
+> library(ggplot2)
+> qplot(mpg$test)
+> 
+> 
+> 
+> mpg$grade2 <-ifelse(mpg$total >=30, "A", 
++                     ifelse(mpg$total >=20,"B","c"))
+> head(mpg,20)
+   manufacturer              model displ year cyl      trans drv cty hwy fl   class total test grade2
+1          audi                 a4   1.8 1999   4   auto(l5)   f  18  29  p compact  23.5 pass      B
+2          audi                 a4   1.8 1999   4 manual(m5)   f  21  29  p compact  25.0 pass      B
+3          audi                 a4   2.0 2008   4 manual(m6)   f  20  31  p compact  25.5 pass      B
+4          audi                 a4   2.0 2008   4   auto(av)   f  21  30  p compact  25.5 pass      B
+5          audi                 a4   2.8 1999   6   auto(l5)   f  16  26  p compact  21.0 pass      B
+6          audi                 a4   2.8 1999   6 manual(m5)   f  18  26  p compact  22.0 pass      B
+7          audi                 a4   3.1 2008   6   auto(av)   f  18  27  p compact  22.5 pass      B
+8          audi         a4 quattro   1.8 1999   4 manual(m5)   4  18  26  p compact  22.0 pass      B
+9          audi         a4 quattro   1.8 1999   4   auto(l5)   4  16  25  p compact  20.5 pass      B
+10         audi         a4 quattro   2.0 2008   4 manual(m6)   4  20  28  p compact  24.0 pass      B
+11         audi         a4 quattro   2.0 2008   4   auto(s6)   4  19  27  p compact  23.0 pass      B
+12         audi         a4 quattro   2.8 1999   6   auto(l5)   4  15  25  p compact  20.0 pass      B
+13         audi         a4 quattro   2.8 1999   6 manual(m5)   4  17  25  p compact  21.0 pass      B
+14         audi         a4 quattro   3.1 2008   6   auto(s6)   4  17  25  p compact  21.0 pass      B
+15         audi         a4 quattro   3.1 2008   6 manual(m6)   4  15  25  p compact  20.0 pass      B
+16         audi         a6 quattro   2.8 1999   6   auto(l5)   4  15  24  p midsize  19.5 fail      c
+17         audi         a6 quattro   3.1 2008   6   auto(s6)   4  17  25  p midsize  21.0 pass      B
+18         audi         a6 quattro   4.2 2008   8   auto(s6)   4  16  23  p midsize  19.5 fail      c
+19    chevrolet c1500 suburban 2wd   5.3 2008   8   auto(l4)   r  14  20  r     suv  17.0 fail      c
+20    chevrolet c1500 suburban 2wd   5.3 2008   8   auto(l4)   r  11  15  e     suv  13.0 fail      c
+> 
+> 
+> 
+> 
+> exam <- read.csv("csv_exam.csv")
+> exam
+   id class math english science
+1   1     1   50      98      50
+2   2     1   60      97      60
+3   3     1   45      86      78
+4   4     1   30      98      58
+5   5     2   25      80      65
+6   6     2   50      89      98
+7   7     2   80      90      45
+8   8     2   90      78      25
+9   9     3   20      98      15
+10 10     3   50      98      45
+11 11     3   65      65      65
+12 12     3   45      85      32
+13 13     4   46      98      65
+14 14     4   48      87      12
+15 15     4   75      56      78
+16 16     4   58      98      65
+17 17     5   65      68      98
+18 18     5   80      78      90
+19 19     5   89      68      87
+20 20     5   78      83      58
+> head(exam)
+  id class math english science
+1  1     1   50      98      50
+2  2     1   60      97      60
+3  3     1   45      86      78
+4  4     1   30      98      58
+5  5     2   25      80      65
+6  6     2   50      89      98
+> 
+> 
+> exam%>% filter(exam$class==1)
+  id class math english science
+1  1     1   50      98      50
+2  2     1   60      97      60
+3  3     1   45      86      78
+4  4     1   30      98      58
+> exam%>% filter(class==1)
+  id class math english science
+1  1     1   50      98      50
+2  2     1   60      97      60
+3  3     1   45      86      78
+4  4     1   30      98      58
+> 
